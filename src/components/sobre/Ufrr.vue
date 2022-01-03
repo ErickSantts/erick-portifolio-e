@@ -97,14 +97,32 @@ h2 {
   margin: 5rem 15rem;
   line-height: 1.7;
 }
-
+@media(max-width: 1300px){
+  .conteudo-formacao{
+    margin: 20px 10%;
+  }
+}
 @media (max-width: 600px) {
 
+  .conteudo-formacao{
+    margin: 10px 10%;
+
+  }
+
+.conteudo {
+  background-color: rgb(122, 074, 145, 0.8);
+  padding: 5px 10px;
+  color: aliceblue;
+  line-height: 1.5;
+  transition: 0.8s;
+  border-radius: 10px;
+}
   .conteudo:hover {
   color: #f9ae56;
   border-radius: 20px;
   line-height: 1.5;
   border: 5px solid aliceblue;
+  padding: 20px 20px;
 }
 }
 

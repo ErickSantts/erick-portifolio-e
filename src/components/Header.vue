@@ -43,10 +43,12 @@ export default {
   methods: {
     mudarStatus() {
       this.menuExibir = !this.menuExibir;
+      document.body.style.overflow = this.menuExibir ? "hidden" : "initial";
       console.log(this.menuExibir);
     },
     tornarStatusFalse() {
       this.menuExibir = false;
+      document.body.style.overflow = this.menuExibir ? "hidden" : "initial";
     },
   },
 };

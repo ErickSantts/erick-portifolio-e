@@ -79,6 +79,23 @@ p {
   transition: 0.8s ease;
   margin-bottom: 20px;
 }
+@media(max-width: 1300px){
+  .conteudo-interesses{
+    margin: 20px 10%;
+  }
 
+  .cabecalho-interesses img{
+    margin-top: 40px;
+  }
+}
+@media (max-width: 600px) {
 
+  .conteudo-interesses{
+    margin: 10px 10%;
+  }
+
+  .cabecalho-interesses img{
+    margin-top: 20px;
+  }
+}
 </style>

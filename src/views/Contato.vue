@@ -8,9 +8,9 @@
         <h2>Entre em contato</h2>
         <ul>
           <li>WhatsApp: (95) 99156-0814</li>
-          <li>Instagram</li>
+          <li><a href="https://www.instagram.com/erick_sbatista/">Instagram</a></li>
           <li>G-Mail: dsantoserick@gmail.com</li>
-          <li>Linkedin</li>
+          <li><a href="https://www.linkedin.com/in/erick-dos-santos-batista-04065010b/">Linkedin</a></li>
         </ul>
 
         <p>(Se preferir acesse pelo rodapé clicando nas redes.)</p>
@@ -20,7 +20,7 @@
           Você pode deixar seu feedbak, se desejar podemos marcar uma conversa
           onde você pode me conhecer melhor, afinal nada melhor do que uma
           conversa para expormos nossos pensamentos, ideias e planos para o
-          futuro, nossos sonhos e desejos!
+          futuro, nossos sonhos e desejos! Feliz 2022.
         </h2>
       </div>
     </div>
@@ -75,7 +75,44 @@ h1 {
   max-width: 500px;
 }
 
-h2{
-    justify-content:justify;
+h2 {
+  justify-content: justify;
+}
+
+@media (max-width: 1200px) {
+  .conteudo {
+    display: block;
+    text-align: center;
+  }
+  .lado-a,
+  .lado-b {
+    max-width: 100%;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    margin: 0;
+  }
+
+  .conteudo .lado-a p {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .lado-b {
+    margin: 2rem;
+    text-align: right;
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 850px) {
+    .lado-b {
+    text-align: center;
+  }
+  }
 }
 </style>
